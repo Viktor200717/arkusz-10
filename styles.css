@@ -1,0 +1,47 @@
+body
+{
+    font: Helvetica;
+}
+header, footer
+{
+    background-color:#FFD966 ;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+main{
+    display: flex;
+}
+footer
+{
+    font-size: 120%;
+}
+#lewy
+{
+    background-color: #FFD966;
+    width: 25%;
+    height: 450px;
+}
+#prawy
+{
+    background-color: #C5E0B4;
+    width: 75%;
+    height: 450px;
+    text-align: center;
+    box-shadow: h-offset v-offset blur spread color black ;
+}
+table
+{
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+}
+ul
+{
+list-style-type: square;
+line-height: 1.5;
+}
+h4, a
+{
+    color: seagreen;
+}
